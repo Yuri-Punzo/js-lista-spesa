@@ -7,12 +7,17 @@ const shoppingList = [
     "uova",
     "carne",
     "patate",
-    "olio" ]
+    "olio"]
 
 let i = 0;
 while (i < shoppingList.length) {
     const listItems = shoppingList[i];
     console.log(listItems);
     i++;
-    document.getElementById("lista_spesa").innerHTML = listItems
+    const x = document.getElementById("lista_spesa")
+    const y = document.createElement("li")
+    x.append(y)
+    y.append(listItems)
+    /* VERSIONE BRUTTA */
+    /* document.getElementById("lista_spesa").insertAdjacentHTML("beforeend", listItems) */
 }
