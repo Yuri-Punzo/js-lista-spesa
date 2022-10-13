@@ -14,10 +14,10 @@ while (i < shoppingList.length) {
     const listItems = shoppingList[i];
     console.log(listItems);
     i++;
-    const x = document.getElementById("lista_spesa")
-    const y = document.createElement("li")
-    x.append(y)
-    y.append(listItems)
+    const domSelection = document.getElementById("lista_spesa")
+    const liElement = document.createElement("li")
+    domSelection.append(liElement)
+    liElement.append(listItems)
     /* VERSIONE BRUTTA */
     /* document.getElementById("lista_spesa").insertAdjacentHTML("beforeend", listItems) */
 }
