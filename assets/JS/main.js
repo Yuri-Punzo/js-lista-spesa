@@ -14,9 +14,9 @@ while (i < shoppingList.length) {
     const listItems = shoppingList[i];
     console.log(listItems);
     i++;
-    const domSelection = document.getElementById("lista_spesa")
+    const ulSelection = document.getElementById("lista_spesa")
     const liElement = document.createElement("li")
-    domSelection.append(liElement)
+    ulSelection.append(liElement)
     liElement.append(listItems)
     /* VERSIONE BRUTTA */
     /* document.getElementById("lista_spesa").insertAdjacentHTML("beforeend", listItems) */
