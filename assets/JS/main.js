@@ -30,4 +30,5 @@ while (i < shoppingList.length) {
     /* questa versione FUNZIONA SOLO con += altrimenti scrive solo l'ultimo elemento della lista invece con l'assegnazione += li scrive tutti.
     
     The addition assignment operator (+=) adds the value of the right operand to a variable and assigns the result to the variable. The types of the two operands determine the behavior of the addition assignment operator. Addition or concatenation is possible. */
+    
 }
